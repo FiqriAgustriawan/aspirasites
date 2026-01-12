@@ -82,7 +82,7 @@ Bash
 
 npm start
 🔗 Demo
-(Jika ada link deploy, masukkan di sini. Jika belum, hapus bagian ini)
+
 
 👨‍💻 Author
 Fiqri Agustriawan
