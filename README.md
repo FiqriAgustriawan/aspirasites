@@ -1,16 +1,88 @@
-# React + Vite
+(API Sistem Cerdas Luwu Timur berbasis Gemini AI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Markdown
 
-Currently, two official plugins are available:
+# 🏛️ Aspirasites (Luwu Timur AI API)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> API cerdas yang mengintegrasikan Google Gemini AI untuk memproses informasi dan aspirasi publik daerah Luwu Timur.
 
-## React Compiler
+## 🛠️ Built With
+- **Language:** JavaScript (Node.js) / Python
+- **AI Model:** Google Gemini API
+- **Framework:** Express.js / FastAPI
+- **Database:** MySQL
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- ✅ **AI Analysis:** Analisis teks otomatis menggunakan LLM Google Gemini.
+- ✅ **Regional Context:** Disesuaikan untuk data spesifik Luwu Timur.
+- ✅ **Secure API:** Autentikasi token untuk keamanan akses data.
+- ✅ **Fast Response:** Optimasi endpoint untuk respon cepat.
 
-## Expanding the ESLint configuration
+## 🚀 Setup & Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone Repository**
+   ```bash
+   git clone [https://github.com/FiqriAgustriawan/aspirasites.git](https://github.com/FiqriAgustriawan/aspirasites.git)
+   cd aspirasites
+Install Dependencies
+
+Bash
+
+npm install
+# Atau jika pakai Python: pip install -r requirements.txt
+Configure Environment Buat file .env dan masukkan key berikut:
+
+Cuplikan kode
+
+GEMINI_API_KEY=masukkan_api_key_disini
+DB_HOST=localhost
+Run Server
+
+Bash
+
+npm run dev
+👨‍💻 Author
+Fiqri Agustriawan
+
+
+---
+
+### 2. Repository: `chat-with-me`
+*(Backend API untuk Chatbot Portofolio)*
+
+```markdown
+# 💬 Chat With Me (Chatbot API)
+
+> Backend service untuk aplikasi Chatbot cerdas yang mampu menangani percakapan natural (NLP).
+
+## 🛠️ Built With
+- **Runtime:** Node.js
+- **AI Integration:** OpenAI / Gemini API
+- **Tools:** Postman (API Testing)
+
+## ✨ Features
+- ✅ **Natural Conversation:** Respon luwes berbasis AI.
+- ✅ **RESTful Architecture:** Struktur API standar yang mudah diintegrasikan.
+- ✅ **Session History:** Menyimpan riwayat percakapan pengguna.
+- ✅ **JSON Response:** Format data standar untuk Frontend (React/Flutter).
+
+## 🚀 Setup & Installation
+
+1. **Clone Repository**
+   ```bash
+   git clone [https://github.com/FiqriAgustriawan/chat-with-me.git](https://github.com/FiqriAgustriawan/chat-with-me.git)
+Install Packages
+
+Bash
+
+npm install
+Run Application
+
+Bash
+
+npm start
+🔗 Demo
+(Jika ada link deploy, masukkan di sini. Jika belum, hapus bagian ini)
+
+👨‍💻 Author
+Fiqri Agustriawan
